@@ -1,0 +1,590 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * FORHAD FRAMEWORK RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 06. Field: repeater
+ *     02. 07. Field: help
+ *     02. 08. Field: icon
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 11. Field: tabbed
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 23. Field: date
+ *     02. 24. Field: map
+ *     02. 25. Field: sortable
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.fers-options {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.fers-header h1 {
+  float: right;
+}
+.fers-header fieldset {
+  float: left;
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.fers-buttons {
+  float: left;
+  direction: ltr;
+}
+
+.fers-header-left {
+  float: right;
+}
+
+.fers-header-right {
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.fers-nav {
+  float: right;
+}
+.fers-nav ul {
+  clear: right;
+}
+.fers-nav ul li .fers-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.fers-nav ul li .fers-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.fers-nav ul li.fers-tab-expanded .fers-arrow:after {
+  transform: rotate(-90deg);
+}
+.fers-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.fers-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.fers-nav .fers-tab-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.fers-nav-background {
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.fers-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+/**
+ * 01. 05. Section
+ */
+.fers-sections {
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.fers-show-all .fers-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.fers-expand-all {
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.fers-search {
+  float: right;
+}
+.fers-search input {
+  margin: 0 0 0 5px;
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.fers-copyright {
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.fers-metabox {
+  margin: -6px -12px -12px -12px;
+}
+.fers-metabox .fers-section-title {
+  padding: 20px;
+}
+
+.fers-section-title .fers-section-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+/**
+ * 02. Fields
+ */
+.fers-field .fers-title {
+  float: right;
+}
+.fers-field .fers-fieldset {
+  float: left;
+}
+
+.fers-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.fers-field-typography select {
+  margin: 0;
+  width: 100%;
+}
+.fers-field-typography .fers--blocks-inputs .fers--blocks {
+  flex-direction: row-reverse;
+}
+.fers-field-typography .fers--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.fers-field-checkbox ul ul li,
+.fers-field-radio ul ul li {
+  margin-left: 0;
+  margin-right: 8px;
+}
+.fers-field-checkbox ul ul li:first-child,
+.fers-field-radio ul ul li:first-child {
+  margin-right: 0;
+}
+.fers-field-checkbox .fers--inline-list li,
+.fers-field-radio .fers--inline-list li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.fers-field-checkbox .fers--text,
+.fers-field-radio .fers--text {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.fers-field-switcher .fers--switcher {
+  float: right;
+}
+.fers-field-switcher .fers--label {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.fers-field-upload .fers--remove,
+.fers-field-upload .fers--button {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.fers-field-group .fers-cloneable-title {
+  padding: 15px 10px 15px 65px;
+}
+.fers-field-group .fers-cloneable-helper {
+  right: auto;
+  left: 10px;
+}
+
+/**
+ * 02. 06. Field: repeater
+ */
+.fers-field-repeater .fers-repeater-helper {
+  border-left: 0;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 07. Field: help
+ */
+.fers-help {
+  right: auto;
+  left: 5px;
+}
+
+/**
+ * 02. 08. Field: icon
+ */
+.fers-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.fers-field-icon .fers-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 09. Field: gallery
+ */
+.fers-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.fers-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 11. Field: tabbed
+ */
+.fers-field-tabbed .fers-tabbed-nav .fers--icon {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.fers-field-tabbed .fers-tabbed-nav a {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.fers-field-media .button {
+  margin-left: 0;
+  margin-right: 7px;
+}
+.fers-field-media .hidden + .button {
+  margin-right: 0;
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.fers-notice {
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.fers-field-dimensions .fers--input,
+.fers-field-dimensions .fers-fieldset,
+.fers-field-spacing .fers--input,
+.fers-field-spacing .fers-fieldset,
+.fers-field-border .fers--input,
+.fers-field-border .fers-fieldset {
+  direction: ltr;
+}
+.fers-field-dimensions .fers--inputs,
+.fers-field-dimensions .fers--color,
+.fers-field-spacing .fers--inputs,
+.fers-field-spacing .fers--color,
+.fers-field-border .fers--inputs,
+.fers-field-border .fers--color {
+  float: right;
+}
+.fers-field-dimensions .fers--color,
+.fers-field-spacing .fers--color,
+.fers-field-border .fers--color {
+  margin-right: 4px;
+  direction: rtl;
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.fers-field-background .fers--block {
+  float: right;
+}
+.fers-field-background .fers--select,
+.fers-field-background .fers--media {
+  padding-right: 0;
+}
+.fers-field-background .fers--title {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.fers-field-spinner .fers--spin {
+  float: right;
+  direction: ltr;
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.fers-field-slider .fers-slider-ui {
+  direction: ltr;
+  margin-right: 0;
+  margin-left: 15px;
+}
+.fers-field-slider .fers--input {
+  direction: ltr;
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.fers-field-button_set .fers--button-group {
+  float: right;
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.fers-field-link_color .fers--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.fers-field-color_group .fers--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.fers-field-palette .fers--palette {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.fers-field-accordion .fers--icon {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/**
+ * 02. 23. Field: date
+ */
+.fers-field-date .fers--to {
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.fers-field-map .fers--map-input:last-child {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/**
+ * 02. 25. Field: sortable
+ */
+.fers-field-sortable .fers-sortable-helper {
+  border-left: none;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.fers-field-number .fers--wrap {
+  float: right;
+}
+.fers-field-number .fers--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 03. Taxonomy
+ */
+.fers-taxonomy-add-fields {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.fers-taxonomy-add-fields .fers-field > .fers-fieldset > .fers-help {
+  left: -5px;
+  right: auto;
+}
+
+.fers-taxonomy-edit-fields {
+  margin-right: 0;
+  margin-left: 35px;
+}
+.fers-taxonomy-edit-fields .fers-field > .fers-fieldset > .fers-help {
+  right: auto;
+  left: -5px;
+}
+
+/**
+ * 04. Profile
+ */
+.fers-profile-options > h2 > .fa {
+  padding-right: 0;
+  padding-left: 7px;
+}
+.fers-profile-options > .fers-field > .fers-fieldset > .fers-help {
+  left: -5px;
+  right: auto;
+}
+
+/**
+ * 05. Nav Menu
+ */
+.fers-nav-menu-options > .fers-fields {
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.fers-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.fers-nav-menu-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.fers-modal-content .fers-field {
+  padding: 15px 15px 15px 30px;
+}
+
+.fers-modal-title {
+  padding: 0 16px 0 36px;
+}
+
+.fers-modal-close {
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section .fers-field .fers-fieldset {
+  margin-right: 0;
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+  .fers-metabox .fers-field .fers-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .fers .fers-fieldset,
+  .fers .fers-content {
+    margin-right: 0;
+  }
+}
+/**
+ * 09. Others
+ */
+.fers-field .fers--transparent-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.fers-field .fers--transparent-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.fers-field .fers--transparent-offset {
+  background-position: center right;
+}
+.fers-field .fers--transparent-text {
+  right: auto;
+  left: 10px;
+}

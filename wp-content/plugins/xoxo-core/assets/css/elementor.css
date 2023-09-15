@@ -1,0 +1,51 @@
+
+.frenifyicon-elementor.frenifyicon-deprecated:after{
+	content: 'Deprecated';
+    background-color: #000;
+    color: #fff;
+}
+.frenifyicon-elementor:after{
+	content: 'Xoxo';
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    padding: 3px 3px 2px 3px;
+    display: block;
+    font-size: 10px;
+    background-color: #ffdd00;
+    color: #000;
+	font-weight: 900;
+	text-transform: uppercase;
+    font-family: Roboto,Arial,Helvetica,Verdana,sans-serif;
+    border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.elementor-panel .elementor-element-wrapper{
+	position: relative;
+}
+.frenifyicon-deprecated.frenifyicon-elementor{
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 2;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.frenifyicon-deprecated.frenifyicon-elementor:before{
+	content: none;
+	display: none;
+}
+.frenifyicon-deprecated.frenifyicon-elementor:after{
+	background-color: transparent;
+    content: 'Deprecated';
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-10deg);
+    font-size: 11px;
+    border: 1px dashed #ed4a43;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: #ed4a43;
+}
